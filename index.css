@@ -1,3 +1,23 @@
+body{
+    height: 5000px;
+}
+
+
+
+
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  top: 0px;
+ 
+}
+
+
+
+
+
 header li{
  list-style: none;
 display: inline-block;
@@ -15,7 +35,7 @@ padding-top: 20px;
 .header-sag li a{
     text-decoration: none;
     color: #4F4F4F;}
-#btn1 , #btn2:hover {
+#btn1 , #btn2:hover , #secbtn:hover {
     border: 2px solid #a62440;
     border-radius: 5px;
     background-color: white;
@@ -25,7 +45,7 @@ padding-top: 20px;
 
 
 
-    #btn1:hover , #btn2{
+    #btn1:hover , #btn2 , #secbtn{
         border: 2px solid #a62440;
         background-color: #a62440;
         color: white;
@@ -40,13 +60,13 @@ padding-top: 20px;
 
 
 
-    .sol{ margin: 70px 30px 30px;
+    .sol{ margin: 125px 30px 30px;
         float: left;
     }
     .sag img{
         float: right;
         width: 600px;
-        margin: 70px 30px 30px;
+        margin: 150px 30px 30px;
         border-radius: 8px;
     
     }
@@ -69,6 +89,43 @@ padding-top: 20px;
     #input1:hover{
         background-color: aliceblue;
         color: #a62440;
+    }
+    section{height: 300vh;
+padding-top: 150px;
+/* overflow: auto; */
+/* border: 1px solid red; */
+
+    }
+    .sectionleft{
+        
+        float: left;
+        width: 30%;
+        height: 350px;
+        padding-right: 20px;
+        margin-left: 30px;
+        position: sticky;
+        top: 150px;
+        
+   box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+    }
+    .sectionright{
+        float: right;
+        width: 60%;
+        padding-right: 20px;
+    }
+    .sectiona{
+        text-decoration: none;
+        color: #5B5B5B;
+        
+    
+    }
+    #secbtn{
+        padding: 0 15px;
+        width: 200px;
+        height: 50px; 
+   margin-left: 80px;
+   margin-right: 60px;    
+    
     }
 
     
