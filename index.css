@@ -1,0 +1,34 @@
+header li{
+ list-style: none;
+display: inline-block;
+}
+.header-sag{
+    float: right;
+    margin-right: 30px;
+}
+
+.header-sag li{
+    margin: 15px;
+}
+.header-sag li a{
+    text-decoration: none;
+    color: #4F4F4F;}
+#btn1 , #btn2:hover {
+    border: 2px solid #a62440;
+    border-radius: 5px;
+    background-color: white;
+    color: #a62440;
+    padding: 10px 10px;
+}
+
+
+
+    #btn1:hover , #btn2{
+        border: 2px solid #a62440;
+        background-color: #a62440;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+
+    
