@@ -1,6 +1,8 @@
 header li{
  list-style: none;
 display: inline-block;
+font-size: 0.85rem;
+padding-top: 20px;
 }
 .header-sag{
     float: right;
@@ -29,6 +31,44 @@ display: inline-block;
         color: white;
         padding: 10px 10px;
         border-radius: 5px;
+    }
+
+    .a1:hover{
+        text-decoration:underline;
+        color: #a62440;
+    }
+
+
+
+    .sol{ margin: 70px 30px 30px;
+        float: left;
+    }
+    .sag img{
+        float: right;
+        width: 600px;
+        margin: 70px 30px 30px;
+        border-radius: 8px;
+    
+    }
+    .clear{
+        clear: both;
+    }
+    h1{
+        color: #464646;
+    }
+    .p1{
+        color: #5B5B5B;
+    }
+    #input1{
+        border: 2px solid #a62440;
+        background-color: #a62440 ;
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #input1:hover{
+        background-color: aliceblue;
+        color: #a62440;
     }
 
     
